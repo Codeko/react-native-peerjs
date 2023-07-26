@@ -17,6 +17,6 @@
   "main": "dist/react-native-peerjs.js",
   "devDependencies": {
     "parcel": "^1.12.3",
-    "peerjs": "1.1.0"
+    "peerjs": "^1.4.7"
   }
 }
