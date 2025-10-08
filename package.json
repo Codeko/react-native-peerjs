@@ -14,9 +14,10 @@
     "build": "./build.sh",
     "prepare": "./build.sh"
   },
-  "main": "dist/react-native-peerjs.js",
+  "main": "./dist/react-native-peerjs.js",
+  "source": "peerjs/lib/exports.ts", 
   "devDependencies": {
-    "parcel": "^1.12.3",
+    "parcel": "^2.16.0",
     "peerjs": "^1.4.7"
   }
 }
