@@ -7,7 +7,7 @@ git clone https://github.com/peers/peerjs --branch v1.4.7 --single-branch peerjs
 cd peerjs
 git apply ../decoupling.diff
 cd ../
-node_modules/.bin/parcel build --no-source-maps peerjs/lib/exports.ts
+node_modules/.bin/parcel build --no-source-maps
 cat imports.js dist/peerjs.min.js > dist/react-native-peerjs.js
 rm dist/peerjs.min.js
 
