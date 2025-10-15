@@ -1,4 +1,4 @@
 peerjs/
 node_modules/
 .idea
-
+.parcel-cache/
