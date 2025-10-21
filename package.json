@@ -19,5 +19,12 @@
   "devDependencies": {
     "parcel": "^2.16.0",
     "peerjs": "^1.4.7"
+  },
+  "targets": {
+    "default": {
+      "source": "peerjs/lib/exports.ts",
+      "distDir": "dist",
+      "sourceMap": false
+    }
   }
 }
